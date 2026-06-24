@@ -54,7 +54,7 @@ const isPageActive = page => {
               <img class="docs-brand-icon" :src="faviconUrl" alt="">
             </span>
             <span class="docs-brand-copy">
-              <strong>OpenGMS-Jupyter-Agent</strong>
+              <strong>OpenGeoLab</strong>
               <span>Docs</span>
             </span>
           </a>
