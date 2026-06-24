@@ -48,7 +48,9 @@ jobs:
           VITE_BASE_PATH: /OpenGMS-Jupyter/
 
       - name: Clean macOS metadata
-        run: find dist -name .DS_Store -delete
+        run: |
+          find dist -name .DS_Store -delete
+          rm -f dist/safari.mp4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
