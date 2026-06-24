@@ -30,7 +30,7 @@ const props = defineProps({
 })
 
 const videoRef = ref(null)
-const demoVideoSrc = withBase('safari-demo.mp4')
+const demoVideoSrc = withBase('safari-demo-h264.mp4')
 
 const syncRate = () => {
   if (videoRef.value) {
