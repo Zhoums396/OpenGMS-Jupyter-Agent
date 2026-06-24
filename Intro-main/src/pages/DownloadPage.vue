@@ -30,7 +30,7 @@ const copyInstallCommand = async () => {
       <span class="eyebrow">Download</span>
       <h1>
         Download and install
-        <span>OpenGeoLab Jupyter</span>
+        <span>OpenGMS-Jupyter-Agent</span>
       </h1>
       <p>
         Install the JupyterLab extension, review the source repository, and use the documented
@@ -68,7 +68,7 @@ const copyInstallCommand = async () => {
       <div class="install-copy">
         <div>
           <span class="card-eyebrow">Install Command</span>
-          <h3>Source install for the OpenGeoLab Jupyter extension</h3>
+          <h3>Source install for the OpenGMS-Jupyter-Agent extension</h3>
           <p>
             Use the source-install path to register the extension with JupyterLab and start the
             notebook-side experience shown elsewhere on the site.

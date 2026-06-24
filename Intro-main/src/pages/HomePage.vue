@@ -14,10 +14,10 @@ import {
 <template>
   <section class="page-section hero-section">
     <div class="page-intro page-intro--hero">
-      <span class="eyebrow">OpenGeoLab Jupyter AI Sidebar</span>
+      <span class="eyebrow">OpenGMS-Jupyter-Agent</span>
       <h1>
         The notebook-aware AI agent for
-        <span>OpenGeoLab Jupyter</span>
+        <span>OpenGMS-Jupyter-Agent</span>
       </h1>
       <p>
         A Jupyter-native agent that reads notebook context, writes executable cells, runs code, and

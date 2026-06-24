@@ -25,14 +25,14 @@ OGMS_API_URL=https://your-opengms-endpoint`
 export const docsPages = [
   {
     slug: '',
-    navTitle: 'About OpenGeoLab',
-    title: 'About OpenGeoLab Jupyter',
+    navTitle: 'About OpenGMS-Jupyter-Agent',
+    title: 'About OpenGMS-Jupyter-Agent',
     description:
       'What the product includes, how the repository is organized, and why the AI sidebar should be separated from companion extension capabilities.',
     intro:
-      'OpenGMS-Jupyter is a JupyterLab-centered geospatial modeling platform that combines web services, notebook integration, and an AI agent workflow.',
+      'OpenGMS-Jupyter-Agent is a JupyterLab-centered geospatial modeling platform that combines web services, notebook integration, and an AI agent workflow.',
     paragraphs: [
-      'OpenGeoLab Jupyter combines a notebook-facing extension, an AI sidebar, and a supporting agent service into one Jupyter-centered workflow.',
+      'OpenGMS-Jupyter-Agent combines a notebook-facing extension, an AI sidebar, and a supporting agent service into one Jupyter-centered workflow.',
       'The project scope matters because the AI sidebar, the GeoModel companion extension, the web application, and the back-end agent service are related but not identical pieces.'
     ],
     bullets: [
@@ -49,9 +49,9 @@ export const docsPages = [
     sections: [
       {
         id: 'runcell-ai',
-        title: 'OpenGeoLab Jupyter',
+        title: 'OpenGMS-Jupyter-Agent',
         paragraphs: [
-          'OpenGeoLab Jupyter is easiest to understand when the AI agent and the companion extension are described as cooperating layers instead of one blurred feature list.',
+          'OpenGMS-Jupyter-Agent is easiest to understand when the AI agent and the companion extension are described as cooperating layers instead of one blurred feature list.',
           'That boundary matters because model browsing, data-method browsing, and parameter-to-code are real product capabilities, but they are not the same thing as the agent tool loop.'
         ]
       },

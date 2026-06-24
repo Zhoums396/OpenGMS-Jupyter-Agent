@@ -1,4 +1,4 @@
-export const repoUrl = 'https://github.com/Zhoums396/OpenGMS-Jupyter'
+export const repoUrl = 'https://github.com/Zhoums396/OpenGMS-Jupyter-Agent'
 export const withBase = path => `${import.meta.env.BASE_URL}${String(path).replace(/^\/+/, '')}`
 export const siteHomeUrl = withBase('')
 export const docsPageUrl = withBase('docs/')
@@ -153,7 +153,7 @@ export const homeCapabilityPanels = [
     tone: 'capability-blue',
     size: 'wide',
     icon: 'AI',
-    title: 'AI-powered notebook assistant for OpenGeoLab Jupyter',
+    title: 'AI-powered notebook assistant for OpenGMS-Jupyter-Agent',
     body:
       'The sidebar helps users stay inside JupyterLab while it reads notebook context, writes executable cells, runs code, and explains the next step from real notebook state.'
   },
@@ -242,7 +242,7 @@ export const downloadCards = [
   },
   {
     eyebrow: 'Repository',
-    title: 'Browse the full OpenGMS-Jupyter repository',
+    title: 'Browse the full OpenGMS-Jupyter-Agent repository',
     body:
       'Jump straight to the open-source repo if you want the code, issue tracker, and the complete relationship between GeoModelWeb, agent-service, and the extension.',
     meta: 'GitHub source of truth',

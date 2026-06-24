@@ -14,7 +14,7 @@ import {
     <div class="page-intro centered narrow">
       <span class="eyebrow">Features</span>
       <h1>
-        OpenGeoLab Agent
+        OpenGMS-Jupyter-Agent
         <span>Features</span>
       </h1>
       <p>
@@ -30,7 +30,7 @@ import {
   </section>
 
   <section class="page-section">
-    <DemoVideo compact caption="Quick walkthrough of the OpenGeoLab Jupyter workflow." />
+    <DemoVideo compact caption="Quick walkthrough of the OpenGMS-Jupyter-Agent workflow." />
   </section>
 
   <section class="page-section section-block">
